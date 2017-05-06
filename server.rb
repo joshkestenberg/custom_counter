@@ -15,7 +15,6 @@ loop do
     rmes = Types::Response.new
     rmes.info = r
   elsif m.echo
-#this code is modified to just return a ResponseEcho object, whereas the others return a Response object (encoded below; uncomment ln 55)
     r = Counter.echo(m.echo)
     rmes = Types::Response.new
     rmes.echo = r
