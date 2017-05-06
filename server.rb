@@ -105,5 +105,4 @@ loop do
 
   client.send(trailercode, 0)
 
-  client.close
 end
